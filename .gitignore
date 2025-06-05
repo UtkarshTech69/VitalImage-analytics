@@ -192,3 +192,18 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Secrets and keys
+.env
+api_key.py
+
+# Streamlit uploads
+*.txt
+*.log
+
+# Python virtual environment
+__pycache__/
+*.pyc
+
+# OS-specific
+.DS_Store
